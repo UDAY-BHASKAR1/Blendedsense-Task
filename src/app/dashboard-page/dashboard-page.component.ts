@@ -12,29 +12,13 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
 })
 export class DashboardPageComponent implements OnInit {
 
-  // create a new close clicked event
-  // items: any;
-  // hideOnOutsideClick: any
-  // upComingEventsData: any = {}
-  // id: any
-  // data: any;
-  // data1: any;
+  
   
   constructor(private userData: AuthenticationService, private router: Router,) { }
 
 
   ngOnInit() {
-    // this.userData.getData().subscribe((result) => {
-    //   this.items = result;
-    //   this.data = this.items.events;
-    //   console.log(this.data)
-    // })
-
-    // this.userData.getTeamData().subscribe((res) => {
-    //   this.items = res;
-    //   this.data1 = this.items;
-    //   console.log(this.data1)
-    // })
+   
   }
  
  
@@ -43,6 +27,6 @@ export class DashboardPageComponent implements OnInit {
     localStorage.clear();
     this.router.navigate(['/login']);
 
-    // localStorage.removeItem('userToken');
+    
   }
 }
