@@ -1,0 +1,301 @@
+<div class="min-h-screen flex surface-ground">
+    <div id="app-sidebar-3"
+        class="bg-gray-900 h-screen hidden lg:block flex-shrink-0 fixed lg:sticky left-0 top-0 z-1 border-right-1 border-gray-800 select-none"
+        style="width:255px">
+        <div class="flex flex-column h-full">
+            <div class="flex align-items-center px-3 flex-shrink-0 " style="height:60px">
+                <img class=" pt-3" src="https://stage.blendedsense.com/img/logo.a39c6ea2.svg" alt="Image"
+                    style="width: 220px; ">
+            </div>
+            <div class="dashboard">
+                <ul class="list-none p-3 m-0">
+
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-home mr-4"></i>
+                            <a  routerLink="/Dashboard/subjects" routerLinkActive="active"  class="font-medium">Dashboard</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-briefcase mr-4"></i>
+                            <span class="font-medium">Business</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-image mr-4"></i>
+                            <span class="font-medium">Asset Library</span>
+
+                        </a>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-inbox mr-4"></i>
+                            <span class="font-medium">Brand Kit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-book mr-4"></i>
+                            <span class="font-medium">Orders</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-calendar mr-4"></i>
+                            <span class="font-medium">Sweeps</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-cog mr-4"></i>
+                            <span class="font-medium">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-none p-3 m-0">
+                    <li>
+                        <span class="block p-2 text-600 quick-action">Quick Actions</span>
+                    </li>
+                    <li>
+                        <a pRipple
+                            class="text-decoration-none flex align-items-center cursor-pointer p-2 border-round hover:bg-gray-800 text-gray-300 hover:text-white transition-duration-150 transition-colors">
+                            <i class="ico pi pi-upload mr-4"></i>
+                            <span class="font-medium">Upload Footage</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="min-h-screen flex flex-column relative flex-auto">
+        <div class="flex justify-content-between align-items-center px-5 surface-0 border-bottom-1 surface-border relative lg:static"
+            style="height:70px">
+            <div class="flex">
+                <a pRipple
+                    class="text-decoration-none cursor-pointer inline-flex align-items-center justify-content-center lg:hidden text-700 mr-3"
+                    pStyleClass="#app-sidebar-3" enterClass="hidden" enterActiveClass="fadeinleft" leaveToClass="hidden"
+                    leaveActiveClass="fadeoutleft" [hideOnOutsideClick]="true">
+                    <i class="pi pi-bars text-4xl"></i>
+                </a>
+            </div>
+            <div class="header">
+                <a pRipple class="cursor-pointer block lg:hidden text-700 lg-fixed" pStyleClass="@next"
+                    enterClass="hidden" enterActiveClass="fadein" leaveToClass="hidden" [hideOnOutsideClick]="true">
+                    <i class="pi pi-ellipsis-v text-2xl"></i>
+                </a>
+                <ul
+                    class="list-none p-0 m-0 hidden lg:flex lg:align-items-center select-none lg:flex-row 
+                surface-section border-1 lg:border-none surface-border right-0 top-100 z-1 shadow-2 lg:shadow-none absolute lg:static">
+
+                    <li>
+                        <a pRipple class="text-decoration-none flex p-3 lg:px-3 lg:py-2 align-items-center text-600 hover:text-900 hover:surface-100 font-medium border-round cursor-pointer
+                        transition-duration-150 transition-colors">
+                            <i class="pi pi-bell text-base lg:text-3xl mr-2 lg:mr-0" style="color:#262626 ;" pBadge severity="danger"></i>
+                            <span class="block lg:hidden font-medium">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="border-top-1 surface-border lg:border-top-none">
+                        <a pRipple class="flex p-3 lg:px-3 lg:py-2 align-items-center hover:surface-100 font-medium border-round cursor-pointer
+                        transition-duration-150 transition-colors">
+                            <img (click)="Logout()"
+                                src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                class="mr-3 lg:mr-0" style="width: 50px; height: 50px; border-radius: 20px;" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+     <router-outlet></router-outlet>
+    
+         <!-- <div class=" flex-auto bg-white" style="padding-left: 50px;">
+            <div class=" surface-border border-round  flex-auto">
+                <p class="h1 Dashboard">Dashboard</p><br>
+                <p class="h1 subjects">Welcome,Subjects</p>
+                <p class="your-vision">Your vision is being brought to life. Hang tight, your <br> matched Creative Team
+                    is currently hard at work producing <br> assets we know you’ll love.</p>
+            </div>
+            <div class="d-flex col first-items">
+                <div class="start col-7">
+                    <div class=" border-bottom-1 surface-border">
+                        <span class="quick1">Quick Start Tasks</span>
+                    </div>
+
+                    <img class="person" src="https://stage.blendedsense.com/img/noTask.796b0ac8.svg" alt="">
+                    <div class="italic text-center"><i>No new tasks... check back <br>
+                            later for an update!</i></div>
+                </div>
+
+             
+                <div class="col-5">
+
+                    <div class="border-bottom-1 surface-border"><span class="quick2">Upcoming Events</span></div>
+                    <div class="ex3">
+                        <div *ngFor="let post of data">
+                            <div>
+                                <p class="event-date">{{post.date|date:'MMM-dd'}}</p>
+                            </div>
+                            <div class="d-flex">
+                                <img  class="event-logo" src="https://stage.blendedsense.com/img/camera_event.15700633.svg" alt="">
+                                <p class="ms-3 event-name">{{post.name}}</p>
+                            </div>
+                            <div>
+                                <p class="ms-5 event-time">{{post.startTime}}-{{post.endTime}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex col first-items">
+                <div class="start col-7 ">
+                    <div class=" border-bottom-1 surface-border">
+                        <span class="quick3">Frequently Asked Questions</span>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <p class="accordion-1  accordion-button collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                                    When Will I see my Assets?
+                                </p>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample"
+                                aria-controls="flush-collapseTwo">
+                                <div class="accordion-body accordion-1-body">One week after the Sweep, you will receive
+                                    a post production checkpoint where you can deliver any feedback. A week later you
+                                    will receive your final assets delivered in the Blended Sense platform!</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <p class="accordion-2 accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What is a post-production checkpoint?
+                                </p>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body accordion-2-body">This is a first look at your assets, and
+                                    time to give feedback in order to get the final results you want. You will have 2-3
+                                    business days to send over any revisions so we can deliver your finished assets on
+                                    time.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <p class="accordion-3 accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    When will I receive my final product / assets?
+                                </p>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body accordion-3-body">2 weeks post Sweep.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-5">
+                    
+                    <div class="border-bottom-1 surface-border"><span class="quick4">Your Team</span></div>
+                    <div><p class="content">Content producer</p></div>
+                    <div class="d-flex">
+                    <div ><img class="content-producer" [src]=data1.project?.business?.pointOfContact.profilePic alt=""></div>
+                    <div class="producer">
+                        <p class="fl-name">{{data1?.project?.business?.pointOfContact.firstName}} {{data1.project?.business?.pointOfContact.lastName}}</p>
+                        <a class="cp-mail1" href="mailto:renucp@yopmail.com"><p class="cp-mail">{{data1?.project?.business?.pointOfContact.email}}</p></a>
+                        
+                        <p class="S-meeting">Schedule a meeting</p>
+                    </div>
+                    </div>
+                    <div><p class="creatives">Creatives</p></div>
+                    <div class="d-flex">
+                        
+                    <div ><img class="content-producer" [src]=data1?.users?.executiveTeam.shift().user.profilePic alt=""></div>
+                    <div ><img class="content-producer1" [src]=data1?.users?.executiveTeam.shift().user.profilePic alt=""></div>
+                    <p-avatar class="content-ET" label="ET"  shape="circle" styleClass="mr-2" size="xlarge"></p-avatar>
+                    <p-avatar class="content-ETC" label="BB"  shape="circle" styleClass="mr-2" size="xlarge"></p-avatar>
+                    
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex col first-items">
+                <div class="start col-7">
+                    <div class=" border-bottom-1 surface-border">
+                        <span class="quick5">Resources</span>
+                    </div>
+                    <div class="row first-items">
+                        <div class="d-flex col-sm-6 ">
+                            <div>
+                                <img class="mr-4" src="https://stage.blendedsense.com/img/support.89c5382c.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="tech">Technical Support</p>
+                                <p class="tech-question">Have questions? Reach out to <br> your producer directly.</p>
+                                <a class="link  border-bottom-2  border-teal-200  text-decoration-none"
+                                    href="mailto:support@blendedsense.com">Contact Support</a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex col-sm-6 ">
+                            <div><img class="mr-4" src="https://stage.blendedsense.com/img/tutorial.d0696e5b.svg"
+                                    alt=""></div>
+                            <div>
+                                <p class="tech">Video & Tutorials</p>
+                                <p class="tech-question">Check out our YouTube <br>channel for tips and tricks</p>
+                                <a href="http://youtube.com/channel/UCqrj6OYDNzdjTZ71XBrNh0Q/featured"
+                                    class="link border-bottom-2  border-teal-200  text-decoration-none">Visit YouTube
+                                    channel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row first-items">
+                        <div class="d-flex col-sm-6">
+                            <div><img class="mr-4" src="https://stage.blendedsense.com/img/resourceCenter.02b356fc.svg"
+                                    alt=""></div>
+
+                            <div>
+                                <p class="tech2">Visit Resource Center</p>
+                                <p class="tech-question2">Check out our resources for <br> more on all things creative.
+                                </p>
+                                <a href="https://www.blendedsense.com/blog"
+                                    class="link border-bottom-2  border-teal-200  text-decoration-none">Visit Blog</a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex col-sm-6">
+                            <div><img class="mr-4" src="https://stage.blendedsense.com/img/feedback.8c2036c0.svg"
+                                    alt=""></div>
+                            <div>
+                                <p class="tech2">Send Us Feedback</p>
+                                <p class="tech-question2">Let us know how we’re doing. <br> Your feedback is important
+                                    to us.</p>
+                                <a href="https://www.blendedsense.com/contact"
+                                    class="link border-bottom-2 border-teal-200 text-decoration-none">Send Feedback</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-5">
+
+                </div>
+            </div>
+        </div>
+    </div>   -->
+</div>

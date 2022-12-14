@@ -1,0 +1,257 @@
+:host ::ng-deep button {
+     margin-left: .5em;
+     width: 10em;
+     margin-top: .5em;
+}
+
+.font-medium{
+     color: #939393;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     font-size: 16px;
+}
+.dashboard {
+     margin-top: 20px;
+}
+.ico{
+     color: #939393;
+
+}
+.quick-action {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+}
+/* .Dashboard {
+     font-size: 45px;
+     font-family: 'Poppins', sans-serif;
+     margin-top: 45px;
+     font-weight: 500;
+     color: #343838;
+} */
+
+ /* .subjects {
+     font-size: 45px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     color: #343838;
+}
+
+.your-vision {
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+     line-height: 40px;
+     font-weight: 100;
+     margin-top: 20px;
+     color: #555555;
+}
+
+.quick-action {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+}
+
+.quick1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     margin-top: 40px;
+     color: #262626;
+}
+
+.quick2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     margin-top: 40px;
+     color: #262626;
+}
+
+
+.first-items {
+     margin-top: 50px;
+}
+
+
+.person {
+     margin-left: 13rem;
+     margin-top: 1rem;
+}
+
+
+.italic {
+     color: #a1a1a1;
+     font-size: 17px;
+     font-family: 'Poppins', sans-serif;
+     margin-top: 40px;
+     font-weight: 100;
+}
+
+.quick3 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     margin-top: 40px;
+     
+     color: #262626;
+}
+
+.quick4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     margin-top: 40px;
+     color: #262626;
+}
+
+.quick5 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     color: #262626;
+
+}
+
+.accordion-1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+     background-color: white;
+     color: #343838;
+     font-weight: 300;
+}
+
+.accordion-2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+     background-color: white;
+     color: #343838;
+     font-weight: 300;
+}
+
+.accordion-3 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 22px;
+     background-color: white;
+     color: #343838;
+     font-weight: 300;
+}
+
+.accordion-1-body {
+     font-family: 'Poppins', sans-serif;
+     color: #343838;
+}
+
+.accordion-2-body {
+     font-family: 'Poppins', sans-serif;
+     color: #343838;
+}
+
+.accordion-3-body {
+     font-family: 'Poppins', sans-serif;
+     color: #343838;
+}
+
+.tech {
+     font-family: 'Poppins', sans-serif;
+     font-size: 21px;
+     font-weight: 600;
+
+}
+
+.tech-question {
+     font-family: 'Poppins', sans-serif;
+     color: #343838;
+}
+
+
+.tech2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 21px;
+     font-weight: 600;
+}
+
+.tech-question2 {
+     font-family: 'Poppins', sans-serif;
+     color: #343838;
+}
+
+.link {
+     font-family: 'Poppins', sans-serif;
+     color: #363438;
+}
+
+.ex3 {
+     
+     margin-top: 20px;
+     height: 22rem;
+     overflow: auto;
+}
+
+.event-name {
+     font-family: 'Poppins', sans-serif;
+     font-size: 21px;
+     color: #343838;
+     font-weight: 900;
+}
+
+.event-time {
+     font-family: 'Poppins', sans-serif;
+    
+}
+
+.event-date {
+     font-family: 'Poppins', sans-serif;
+    
+}
+
+.event-logo {
+     padding-bottom: 15px;
+}
+
+.content-producer {
+     width: 68px;
+     border-radius: 40px;
+}
+.content-producer1{
+     width: 90px;
+     height: 68px;
+     border-radius: 100px;
+     padding-left: 15px;
+}
+
+.content-ET {
+     padding-left: 15px;
+}
+
+.content-ETC {
+     padding-left: 15px;
+}
+
+.producer {
+     margin-left: 20px;
+}
+
+.content {
+     font-family: 'Poppins', sans-serif;
+     padding-top: 20px ;
+}
+
+.fl-name {
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+}
+
+.cp-mail1{
+     text-decoration: none;
+}
+.cp-mail {
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     color: #8066ff;
+     
+}
+
+.S-meeting {
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     color: #8066ff;
+}
+
+.creatives {
+     font-family: 'Poppins', sans-serif;
+} 
+ */
