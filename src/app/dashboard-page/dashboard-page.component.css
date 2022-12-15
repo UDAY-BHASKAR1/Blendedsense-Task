@@ -10,12 +10,18 @@
      text-decoration: none;
      font-size: 16px;
 }
+.font-medium:hover{
+     color:white;
+}
 .dashboard {
      margin-top: 20px;
 }
 .ico{
      color: #939393;
 
+}
+.ico:hover{
+     color:white;
 }
 .quick-action {
      font-family: 'Poppins', sans-serif;
